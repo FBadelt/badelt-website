@@ -1,12 +1,19 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="6" fill="#f7f9fb"/>
-  <rect x="4" y="4" width="56" height="56" rx="3"
-        fill="none" stroke="#334e68" stroke-width="0.75" opacity="0.45"/>
+  <style>
+    .bg-r    { fill: #243b53; stroke: #ffffff; }
+    .bg-b    { fill: #486581; }
+    .accent  { fill: #334e68; }
+    @media (prefers-color-scheme: dark) {
+      .bg-r   { fill: #f7f9fb; stroke: #1b2b3a; }
+      .bg-b   { fill: #bcccdc; }
+      .accent { fill: #bcccdc; }
+    }
+  </style>
   <g font-family="Georgia, 'Times New Roman', serif" font-weight="700"
-     font-size="40" text-anchor="middle" dominant-baseline="central">
-    <text x="39" y="34" fill="#486581">B</text>
-    <text x="27" y="34" fill="#243b53"
-          stroke="#f7f9fb" stroke-width="1.5" paint-order="stroke">R</text>
+     font-size="44" text-anchor="middle" dominant-baseline="central">
+    <text x="39" y="30" class="bg-b">B</text>
+    <text x="27" y="30" class="bg-r"
+          stroke-width="1.8" paint-order="stroke">R</text>
   </g>
-  <rect x="18" y="54" width="28" height="1" fill="#334e68" opacity="0.55"/>
+  <rect x="16" y="54" width="32" height="1.2" class="accent" opacity="0.55"/>
 </svg>
