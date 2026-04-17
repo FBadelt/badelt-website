@@ -8,9 +8,9 @@
     }
   </style>
   <g font-family="Georgia, 'Times New Roman', serif" font-weight="700"
-     font-size="60" text-anchor="middle" dominant-baseline="central">
-    <text x="41" y="32" class="bg-b">B</text>
-    <text x="24" y="32" class="bg-r"
-          stroke-width="2.2" paint-order="stroke">R</text>
+     font-size="76" text-anchor="middle" dominant-baseline="central">
+    <text x="42" y="34" class="bg-b">B</text>
+    <text x="22" y="34" class="bg-r"
+          stroke-width="2.8" paint-order="stroke">R</text>
   </g>
 </svg>
