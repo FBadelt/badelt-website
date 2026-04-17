@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <g font-family="Georgia, 'Times New Roman', serif" font-weight="700"
+     font-size="40" text-anchor="middle" dominant-baseline="central">
+    <text x="39" y="34" fill="#486581">B</text>
+    <text x="27" y="34" fill="#243b53"
+          stroke="#ffffff" stroke-width="1.5" paint-order="stroke">R</text>
+  </g>
+  <rect x="18" y="54" width="28" height="1" fill="#334e68" opacity="0.6"/>
+</svg>
